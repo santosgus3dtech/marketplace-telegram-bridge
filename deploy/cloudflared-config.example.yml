@@ -1,0 +1,7 @@
+tunnel: SEU_TUNNEL_UUID
+credentials-file: /etc/cloudflared/SEU_TUNNEL_UUID.json
+
+ingress:
+  - hostname: bridge.example.com
+    service: http://127.0.0.1:8010
+  - service: http_status:404
