@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "marketplace-telegram-bridge"
 version = "0.1.0"
-description = "Private bridge between the official OLX Chat API and Telegram."
+description = "Sanitized event-driven bridge between an official marketplace API and Telegram."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

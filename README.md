@@ -4,6 +4,8 @@
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-async-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 
+![Synthetic operations console](docs/screenshots/operations-console.png)
+
 A secure, event-driven bridge between the official OLX Chat API and Telegram. It forwards
 marketplace conversations to an authorized Telegram chat and sends replies back through the
 official provider API.
@@ -55,6 +57,7 @@ moves exhausted jobs to a dead-letter state. The HTTP request never waits for an
 - Configurable retention for messages and audit records.
 - Docker hardening: read-only filesystem, dropped capabilities and no-new-privileges.
 - Unit, integration and end-to-end scenarios with external services mocked.
+- Deterministic, priority-based reply suggestions that refuse fuzzy matches and remain reviewable before sending.
 
 ## Stack
 
