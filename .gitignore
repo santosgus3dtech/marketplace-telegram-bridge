@@ -22,3 +22,5 @@ deploy/cloudflared/*.json
 .vscode/
 .DS_Store
 desktop.ini
+/docs/.obsidian/
+/docs/.trash/
